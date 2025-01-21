@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Container for the chat cards */
+.chat-container {
+    display: flex;
+    flex-wrap: nowrap; /* Allows wrapping of cards onto new lines */
+    justify-content: center; /* Centers the cards */
+    gap: 20px; /* Adds space between cards */
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the container */
+    padding: 0 20px; /* Optional: Padding around the container */
+}
+
+/* Each chat card */
+.chat {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for each card */
+    box-sizing: border-box; /* Includes padding and border in the width calculation */
+}
+
+.chat p {
+    margin: 0;
+    color: #555;
+}
+
+.msg {
+    margin-top: 10px;
+}
+
+.msg h5 {
+    margin: 0;
+    color: #333;
+}
+
+form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+form button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover {
+    background-color: #d32f2f;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+h6 {
+    color: #777;
+    margin: 0;
+}
